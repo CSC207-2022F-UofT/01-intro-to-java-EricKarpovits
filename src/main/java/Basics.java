@@ -45,8 +45,6 @@ public class Basics {
          */
         System.out.println("Hello World!");
 
-
-
         /* 4. In Python, we could declare variables using a simple assignment
          *    statement. For example:
          *        x = 10
@@ -179,7 +177,7 @@ public class Basics {
          */
 
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 != 0) {
+            if (i % 2 != 0) {
                 current_sum += arr[i];
             }
         }
